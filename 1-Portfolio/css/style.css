@@ -1,0 +1,594 @@
+/*Start main rules*/
+
+/*body{    height: 4000px;    }*/
+
+/*Start Header*/
+
+/*reset container or oranize it*/
+.container
+{
+    width: 1170px;
+    margin: auto;
+}
+
+/*framework for us,Would help later
+Useful in 2 floating 
+*/
+.clearfix
+{
+    clear: both;
+}
+
+/*End main rules*/
+
+/*Start header*/
+.header .slider 
+{
+    background-image: url(../Images/slider.jpg);
+    background-size: cover; /*CSS3*/
+    -webkit-background-size: cover; /*CSS3*/ 
+    -moz-background-size: cover; /*CSS3*/
+    -o-background-size: cover; /*CSS3*/
+    background-size: cover; /*CSS3*/
+
+    height: 500px;  
+}
+
+.header .slider .intro
+{
+    /*to avoid top margin */
+    padding-top: 200px;
+    
+    text-align: right;
+    margin-left: 650px;
+
+    color: #fff;
+}
+    
+.header .slider .intro h2
+{
+    /*to avoid top margin */ 
+    font-size: 50px;
+    width: 500px;
+    color: #fff; 
+}
+
+
+.header .slider .intro button
+{
+    background: none;
+    color: aliceblue;
+    width: 140px;
+    margin-top: 0px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    border:2px solid #fff; 
+}
+/*End header*/
+
+
+/*class navbar in class header*/
+.header .navbar
+{
+    background-color:#26211C;
+    color: #fff;
+    overflow: hidden;  
+}
+
+.header .navbar h2
+{
+    color: #fff;  
+}
+
+.header .navbar h2 span
+{
+    color: #30B576;  
+}
+
+/*reset ul*/
+.header .navbar ul
+{
+    list-style: none;
+    padding-left: 0;
+
+    overflow: hidden;
+    float: right;  
+}
+
+
+.header .navbar ul li
+{
+    float: left;
+    padding: 10px;   
+}
+
+.header .navbar ul li a
+{
+    color: #fff;
+    text-decoration: none; 
+}
+
+/*to make hover effects*/
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover
+{
+    color: #30B576;
+}
+/*End Header*/
+
+/*Start Features*/
+.features
+{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.features .feat
+{  
+    width: 33.3333%;
+    height: 150px;
+}
+/*End Features*/
+
+/*Start About me*/
+.about-me
+{
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.about-me .image
+{
+    width: 40%; 
+}
+
+/*to make image full screen*/
+.about-me .image img 
+{
+    width: 100%;  
+}
+
+.about-me .info
+{
+    width: 40%;
+}
+.about-me .info h2
+{
+    margin: 40px 0 20px 40px;
+}
+
+/*all p*/
+.about-me .info >p
+{
+    margin: 0 0 10px 40px;
+}
+
+/*last p*/
+.about-me .info >p:last-of-type
+{
+/*    margin: 20px 0 10px 40px;*/
+   margin-top: 20px;
+}
+
+.about-me .info .hobbies
+{
+    overflow: hidden;
+    margin: 20px 0 10px 40px; 
+}
+
+.about-me .info .hobbies .content
+{
+    width: 50%;
+/*    min-height: 100px;*/
+    overflow: hidden; 
+}
+
+.about-me .info .hobbies .content h3
+{
+    color: #333;
+}
+
+.about-me .info .hobbies .content .icon
+{
+    width: 12%;
+    margin-right: 5%;  
+}
+
+.about-me .info .hobbies .content img
+{
+    max-width: 100%;
+    margin: 15px 10px 0px 0px;
+}
+
+.about-me .info .hobbies .content .text
+{
+    width: 83%;
+}
+
+.about-me .info .hobbies .content .text p
+{
+    margin-bottom: 0;   
+}
+
+.about-me .info .hobbies .content .text h3
+{
+    margin-bottom: 5px;   
+}
+/*End About me*/
+
+
+/*Start my skills*/
+.my-skills
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;    
+}
+
+/*Grouping*/
+.my-skills .skills,.my-skills .progress
+{
+    width: 50%;  
+}
+
+.my-skills .skills h2
+{
+    margin: 40px 0 20px 40px;
+}
+
+.my-skills .skills p
+{
+    margin: 0 0 10px 40px;
+}
+
+.my-skills .skills p:last-of-type
+{
+    
+   margin-top: 20px;
+}
+
+.my-skills .skills button
+{
+    margin-left: 40px; 
+    margin-top: 20px;  
+}
+
+
+.my-skills .progress .technique div span
+{
+    background-color: #2DCC70;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #fff;
+    font-weight: bold;   
+}
+/*End my skills*/
+
+
+/*Start resume*/
+.resume
+{
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 70px;  
+}
+
+.resume h2
+{
+/*    text-transform: uppercase;*/
+    font-weight: bold;  
+}
+
+.resume p
+{
+    padding: 0 40px; 
+}
+
+.resume button
+{
+    margin-top: 15px;  
+}
+/*End resume*/
+
+/*Start my education*/
+.my-education
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;  
+}
+
+.my-education hr
+{
+    margin: 20px 0;
+    background-color: #999;
+    height: 1px;
+    border: 0;  
+}
+ 
+.my-education .main 
+{
+    width: 50%;
+    margin-right: 5px;  
+}
+
+.my-education .main h2
+{
+    margin: 40px 0 20px 40px;
+}
+
+.my-education .main p
+{
+    margin: 0 0 10px 40px;
+}
+
+.my-education .main p:last-of-type
+{  
+   margin-top: 20px;
+}
+
+.my-education .exp
+{
+    width: 45%;
+    float: left; 
+}
+
+.my-education .exp h3
+{
+    margin-top: 88px;
+    margin-bottom: 8px;
+}
+
+.my-education .exp span
+{
+    display: block;
+    margin-bottom: 8px;   
+}
+
+.my-education .exp span:first-of-type
+{
+    color: #999;
+}
+
+.my-education .exp span:last-of-type
+{
+    background-color: #2DCC70;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 10px;
+}
+/*End my education*/
+
+/*Start testimonials or feedback*/
+.feedback
+{
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center; 
+}
+
+.feedback
+{
+    line-height: 1.8;
+    color: #888;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold; 
+}
+
+.feedback h3
+{
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.feedback ul
+{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;  
+}
+
+.feedback ul li
+{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #2DCC78;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.feedback ul li.active,
+.feedback ul li:hover
+{
+    background-color: #2DCC78;
+}
+
+/*End testimonials or feedback*/
+
+
+/*Start Portfolio*/
+.portfolio
+{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.portfolio p
+{
+    margin-bottom: 30px;  
+}
+
+.portfolio .our-work
+{
+    overflow: hidden;
+}
+
+.portfolio .our-work>div
+{
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 10px;
+}
+
+.portfolio .our-work>div img
+{
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 10px #ccc;
+}
+/*End Portfloio*/
+
+/*Start contact me*/
+.contact
+{
+    background-color: #252f31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;  
+}
+
+.contact .info
+{
+    width: 50%;
+    margin-right: 30px;
+}
+
+.contact h2
+{
+    color: #fff;
+    margin-left: 40px;  
+}
+
+.contact p
+{
+    color: #6A6E71;
+    margin-left: 40px;
+}
+
+.contact p strong
+{
+    color: #D1D6DA;  
+}
+
+.contact .form
+{
+    width: 45%;  
+}
+
+.contact .form label
+{
+    display: block;
+    color: #D1D6DA;
+    margin: 10px 0; 
+}
+
+.contact .form input[type="text"]
+{
+    background-color: #4B5557;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.contact .form textarea
+{
+    background-color: #4B5557;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+.contact .form input[type="submit"]
+{
+    background-color: #191E22;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 10px;   
+}
+/*End contact me*/
+
+/*Start footer*/
+.footer
+{
+    background-color: #191E22;
+    color: #6A6E71;
+    padding: 20px 0;
+    text-align: center;  
+}
+
+.footer ul
+{
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0;
+}
+
+.footer ul li
+{
+    display: inline-block;
+}
+
+.footer ul li i:hover
+{
+    color: #fff;
+}
+
+/*
+.footer ul li img
+{
+    width: 24px;
+}
+*/
+
+/*End footer*/
+
+/*Start my framework*/
+.my-button
+{
+    background: nono;
+    border: 3px solid #2DCC70;
+    padding: 10px 30px;
+    color: #2DCC70;
+    font-weight: bold;  
+}
+
+/*Floating element left*/
+.fl-left    
+{
+    float: left;  
+}
+
+p
+{
+    line-height: 1.7;
+    color: #888;   
+}
+
+h2,h3
+{
+    color: #777;
+}
+
+.text-center
+{
+    text-align: center;
+    
+}
+/*End my framework*/
