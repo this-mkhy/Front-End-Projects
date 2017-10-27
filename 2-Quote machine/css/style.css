@@ -1,0 +1,79 @@
+/*Header and container*/
+section p, .container
+{
+  text-align: center;
+  padding-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #9B59B6;
+  font-family: cursive, sans-serif;
+}
+
+.container h1
+{
+    color: #fff;
+}
+
+body 
+{
+  position: relative;
+  background-color:#9B59B6;
+}
+
+
+/*Quote wall*/
+.wall 
+{
+    height: 250px;
+    width: 600px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+    
+/*
+    margin-left: 20%;
+    margin-right: 3%;
+    margin-top: 5%;
+*/
+    margin: 5% 22% ;
+    background-color: #FFFFFF;
+}
+
+
+.container .well .author-text 
+{
+  
+    text-align:right;
+}
+
+.container .buttons 
+{
+    width:450px;
+    height: 450px;
+    margin-left:150px;
+}
+
+
+/*Footer*/
+footer 
+{
+  background-color: black;
+  color: gray;
+  line-height: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  text-align: center;
+  font-family: cursive, sans-serif;
+
+}
+
+section 
+{
+  min-height: 90vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
