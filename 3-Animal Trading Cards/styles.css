@@ -1,0 +1,61 @@
+
+h2
+{
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.card{
+    width:325px;
+    margin: 0 auto;
+    box-shadow: 6px 6px 6px #E8E8E8;
+    box-sizing: border-box;
+/*    background-color: #DECDBD;*/
+    background-image: url("https://3.bp.blogspot.com/-70J4txc49F8/WMrGqjMz9iI/AAAAAAAAH7E/14wKeFF3Ngs/w800-h1280-c/sunset-in-the-desert-galaxy-note-hd-wallpaper.jpg");
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+.camel-image
+{
+    margin: 10px;
+/*    width: 300px;*/
+    border-radius: 2px;
+
+}
+
+.card, .camel-image, .about{
+    border: 1px solid #E8E8E8; 
+}
+
+.about  
+{
+    margin: 5px auto;
+    width: 300px;
+    border-radius: 2px;
+
+}
+
+.fact
+{
+    font-style: italic;
+    
+}
+
+
+ul
+{
+    list-style-type: none;
+}
+
+.fact ,.description
+{
+    margin-left: 10px;
+    
+}
+
+.description
+{
+    line-height: 20px;
+    
+}
