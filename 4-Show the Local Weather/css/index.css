@@ -1,0 +1,180 @@
+/*Coded by Mohamed Khaled Yousef*/
+/*start basic*/
+body
+{
+    color: #a5acaf;
+    font-family: 'Muli', sans-serif;
+    -webkit-user-select: none;      
+    -moz-user-select: none;     
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+.container,.row 
+{
+    min-width:700px;
+}
+ 
+
+
+.weather-box
+{
+    cursor: default;
+    margin: 50px auto;
+    width:700px;
+ 
+    background: #333333;
+    border-radius: 10px;
+    box-shadow:0px 0px 5px black;
+}
+
+
+.refresh 
+{
+    height:40px;
+    font-size:50px;
+    color: #d5dbdc;
+
+}
+.refresh:hover 
+{
+    color: #778287;
+}
+
+
+.weather-icon 
+{
+    height: 200px;
+    padding: 0px;
+    font-size:125px;
+    color: #778287;
+}
+/*end basic*/
+
+
+/*start div-3, temperature, weath,day(date and time)*/
+.info-1
+{
+  height:60px;
+  margin-bottom: 20px;
+}
+
+
+.temperature {
+  font-weight: 200;
+  font-size: 50px;
+    padding-left: 20px;
+}
+
+.temperature:hover {
+
+  font-weight: 100;
+  font-size: 40px;
+  background-color: #d5dbdc;
+} 
+
+.weather
+{
+    padding-left: 80px;
+    
+}
+.weather-state {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.location {
+  font-size: 15px;
+}
+
+.day
+{
+    padding-top: 10px;
+    margin-left: 170px;
+    background-color: #54bae6;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;  
+    width: 90px;
+    height: 90px;
+    
+}
+
+.temperature, .weather,.day
+{
+    float: left;
+}
+/*end div-3, temperature, weath,day(date and time)*/
+
+/*start div-4,wind, pressure ,humidity*/
+.info-2 
+{
+    height:100px;
+    padding:10px;
+    background:#778287;
+    color: #C1C1C1;
+    padding-left: 40px;
+
+}
+
+.wind, .pressure,.humidity
+{
+    float: left;
+    margin-left: 100px;
+}
+/*end div-4,wind, pressure ,humidity*/
+
+
+/*start footer*/
+.footer
+{
+    background-color: #333333;
+    color: aliceblue;
+    padding: 20px 0;
+    text-align: center;  
+}
+
+.footer ul
+{
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0;
+}
+
+.footer ul li
+{
+    display: inline-block;
+}
+
+.footer ul li i:hover
+{
+    color: #fff;
+}
+/*end footer*/
+
+/*start last*/
+.last
+{
+    background-color: #778287;
+    color: black;
+    height: 40px;
+    padding: 10px;
+    font-size: 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.last a,.last a:hover,.last a:visited
+{
+    color: #C1C1C1;
+    text-decoration: none;
+    font-family: 'Volkhov', serif;
+    text-transform: uppercase;
+}
+
+.last a:hover
+{
+    color:#54BAE6;
+}
+/*end last*/
+
