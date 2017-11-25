@@ -1,0 +1,104 @@
+/*Start Basic styles*/
+body
+{
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    background:#092B40;
+}
+
+
+a
+{
+    text-decoration:none;
+    color:inherit;
+}
+
+
+h1
+{
+    color:white;
+}
+
+h2,h3
+{
+    color:white;
+    padding:10px 0 10px 0;
+    font-weight:normal;
+}
+/*End Basic styles*/
+
+/*Search icon*/
+input[type=text]
+{
+    width:200px;
+    box-sizing:border-box;
+    border:2px solid #D96F32;
+    background-color:white;
+    border-radius:20px;
+    font-size:17px;
+    padding:12px 20px 12px 35px;
+    background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACMklEQVRIS63WycvNYRQH8M9LxlCGlb2pUKailAjZyMKQmb2Qf0R6Q5YyUzasDGWIkrEIYcFOylCkN7PO7Xluj1+/e+97b87q3ucM33O+zznn+fVpLfOwBUswBWPwFa9wEydxr41/Q9VXYzAN/VjZyRlXsQfPW9lWAdbiGEYPIng2GcBOnKvzKQEieBgNSYZ/cBanExXvMQ7zE3WbMbSw3VgHkgGClodF5m+wDg/aVDI7BQzfkKgk7u0fujLApYLzCL4Q7wZB0yTcxtRkew3LSr8ACNT7RakLOmRexY1KovpM1yLcyUYBsB/70sEZbBpE5lWTaIxt6fAgdpcAwfPcdLAGF3oAiJYOmkOeIKpqSFTwGWPT/8l42wPABHxIft8wsgT4XQzccPzoASASjThZmnFC8SWtgVBGV+RMusEZj4/J4XuqIOaoQVF0wJykXFVw2Q3AClxODk8xs6ToAPamg+PY3k3kZHsUO9Lvw9hVAkTf300Hv1JHPe4CZBYetZuDiHUFy1PQF1iM2D2dZCJuYXoyvI6lpVNeFTPS9I5KypdYj3aVROaxHHPwcL2IWJrNTiy36QbEJOezoOsUTqRV8gnRLfkh2lrQUiZ9Pm2DBkj1PQiQuLBcSSeKWumbIHUvWtB1qMpli0jBeczR6hp9A6QOINvGys5vcqzjEYghijf5BqKlY2sOS49ScF+VI+0AqsYR6CcaE1qRViAD3QB0uo86kGf/EyASCJD4Iompfh1b4S+Mim2zuGWsvwAAAABJRU5ErkJggg==");
+    background-repeat:no-repeat;
+    background-position:10px 10px;
+    -webkit-transition:width 0.8s ease-in-out;
+    transition:width 0.8s ease-in-out;
+}
+
+input[type=text]:focus
+{
+    width:50%;
+}
+
+
+/*Search button*/
+.button-search
+{
+    margin-top:15px;
+    background-color:#1da1f2;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    cursor:pointer;
+    border:none;
+    padding:8px 16px;
+    display:inline-block;
+    font-size:16px;
+    border-radius:6px;
+    border: none;
+        
+}
+
+.button-search:hover
+{
+    background-color:rgba(29,161,242,0.7)
+}
+
+
+
+/*The results*/
+ul
+{
+    list-style:none;
+    max-width:960px;
+    margin:0 auto;
+    padding:0 40px 0 40px;
+}
+
+ul li
+{
+    margin:15px 0 15px 0;
+    background-color:white;
+    padding:10px;
+    text-align:left;
+}
+
+ul li:hover
+{
+    border-left:solid 5px #D96F32;
+    margin-left:-5px;
+}
+
+
+
+
+
