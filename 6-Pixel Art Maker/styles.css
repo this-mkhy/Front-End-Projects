@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    background-color: #5c7212   ;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+#chooseSize
+{
+    margin: 1em 0 0.25em;
+    color:#605610;
+    font-family:cursive;
+    font-size: 30px;
+    
+}
+
+.gridHW
+{
+  font-size:20px;
+  font-weight: bold;
+
+  
+}
+
+.gridWid, #sub
+{
+  margin-left:20px;
+  
+  
+}
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 25px;
+}
+
+td {
+    width: 25px;
+}
+
+input[type=number] {
+    width: 6em;
+    height: 2em;
+    
+    font-size: 20px;
+    text-align:center;
+    font-weight: bold;
+}
