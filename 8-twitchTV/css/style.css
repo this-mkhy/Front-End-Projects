@@ -1,0 +1,70 @@
+body
+{
+    text-align: center;
+}
+
+/*h1 which is the header*/
+.appName
+{
+    background-color:#cdf2d6;
+    color:black;
+    padding:15px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/*logo*/
+#img
+{
+    float: left;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+/*each row*/
+.row
+{   
+  background-color:#cdf2d6;
+  margin-top:10px;
+  padding:5px;
+  
+}
+
+/*start footer*/
+.footer
+{
+    
+    color:#333333;
+    padding: 20px 0;
+}
+
+.footer ul
+{
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0;
+}
+
+.footer ul li
+{
+    display: inline-block;
+}
+
+.footer ul li i:hover
+{
+    color: #fff;
+}
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
