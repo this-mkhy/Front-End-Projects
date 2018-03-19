@@ -1,18 +1,18 @@
 body
 {
     text-align: center;
-    background-color: green !important;
+    background-color: #000053 !important;
 }
 
 .jsCalc
 {
     font-weight: bold;
+    color: white;
 }
 
 /*set the dimension of the calculator */
 .calculator 
 {
-	background-color: green;
 	-webkit-box-shadow: -1px 4px 61px 16px rgba(0,0,0,0.32);
 	-moz-box-shadow: -1px 4px 61px 16px rgba(0,0,0,0.32);
 	border-radius: 15px;
@@ -22,32 +22,15 @@ body
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: -1px 4px 61px 16px rgba(0,0,0,0.32);	
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cc0000+0,6d1e1e+100 */
-	
-    background: #cc0000; 
-    /* Old browsers */
-	
-    background: -moz-linear-gradient(-45deg,  #cc0000 0%, #6d1e1e 100%); 
-    /* FF3.6+ */
-	
+
+    background:#3B5998	; 
+
     background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#cc0000), color-
     stop(100%,#6d1e1e)); 
-    /* Chrome,Safari4+ */
-	
-    background: -webkit-linear-gradient(-45deg,  #cc0000 0%,#6d1e1e 100%);
-    /* Chrome10+,Safari5.1+ */
-	
+
     background: -o-linear-gradient(-45deg,  #cc0000 0%,#6d1e1e 100%); 
-    /* Opera 11.10+ */
-	
+
     background: -ms-linear-gradient(-45deg,  #cc0000 0%,#6d1e1e 100%); 
-    /* IE10+ */
-	
-    background: linear-gradient(135deg,  #cc0000 0%,#6d1e1e 100%); 
-    /* W3C */
-	
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#6d1e1e',GradientType=1 );
-    /* IE6-9 fallback on horizontal gradient */
 }
 
 /*set the elements of the calc*/
