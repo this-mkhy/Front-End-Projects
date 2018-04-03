@@ -1,0 +1,142 @@
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Memory Game</h1>
+        </header>
+
+        <!--start stars, movess, times and repeat icons-->
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        	</ul>
+
+        	<span class="moves"> 
+                0
+            </span> Moves
+
+            <div class="timer"> 
+            </div>
+
+            <div class="restart" onclick=startGame()>
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+		<!-- end stars, movess, times and repeat icons-->
+        
+        <!--start deck--> 
+        <ul class="deck" id="card-deck">
+            <li class="card" type="diamond">
+                <i class="fa fa-diamond"></i>
+            </li>
+            
+            <li class="card" type="plane">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            
+            <li class="card match" type="anchor">
+                <i class="fa fa-anchor"></i>
+            </li>
+            
+            <li class="card" type="bolt" >
+                <i class="fa fa-bolt"></i>
+            </li>
+            
+            <li class="card" type="cube">
+                <i class="fa fa-cube"></i>
+            </li>
+            
+            <li class="card match" type="anchor">
+                <i class="fa fa-anchor"></i>
+            </li>
+            
+            <li class="card" type="leaf">
+                <i class="fa fa-leaf"></i>
+            </li>
+            
+            <li class="card" type="bicycle">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            
+            <li class="card" type="diamond">
+                <i class="fa fa-diamond"></i>
+            </li>
+            
+            <li class="card" type="bomb">
+                <i class="fa fa-bomb"></i>
+            </li>
+            
+            <li class="card" type="leaf">
+                <i class="fa fa-leaf"></i>
+            </li>
+            
+            <li class="card" type="bomb">
+                <i class="fa fa-bomb"></i>
+            </li>
+            
+            <li class="card open appear" type="bolt">
+                <i class="fa fa-bolt"></i>
+            </li>
+            
+            <li class="card" type="bicycle">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            
+            <li class="card" type="plane">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            
+            <li class="card" type="cube">
+                <i class="fa fa-cube"></i>
+            </li>
+        </ul>
+        <!--end deck--> 
+	
+        <!--start final result, congrats form -->
+        <div id="congrats" class="overlay">
+            <div class="congrat">
+                <h2>Congratulations! you won!</h2>
+                <!--× not x to shutdown-->
+                <a class="shutdown" href=#> X </a>
+                <div class="fst">
+                    <p>With
+                        <span id=end-move> </span> 
+                        Moves
+                    </p>
+                    <p>in 
+                        <span id=all-time> </span>
+                    </p>
+                    <p>Your rating is :  
+                        <span id=stars-rating></span>
+                    </p>
+                </div>
+                
+                <div class="second">
+                    Woooooooo!
+                </div>
+
+                <button id="repeat-game" onclick="repeatGame()">
+                    <a>Play again</a>
+                </button>
+            </div>
+        </div>
+        <!--end final result -->
+        
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
