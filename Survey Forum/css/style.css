@@ -1,0 +1,137 @@
+html, body {
+    background-color: #05020a;
+    text-align: center;
+    font-family: sans-serif;
+} 
+
+#description {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#form-outer {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin: auto;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.labels 
+{
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 6px;
+}
+
+.right 
+{
+    display: inline-block;
+    text-align: left;
+    width: 42%;
+}
+
+.input-field 
+{
+  height: 25px;
+  width: 300px;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 5px;
+  border: 2px solid #05020a;
+}
+
+.userRatings, input[type="checkbox"] 
+{
+    float: left;
+    margin-right: 10px;
+}
+
+#submit {
+    color: white;
+    background-color: #222222;
+    font-size: 20px;
+    height: 45px;
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+#submit:hover 
+{
+    background-color: #555555;
+}
+
+.dropdown 
+{
+    height: 40px;
+    width: 160px;
+    border: 2px solid #222222;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;  
+}
+
+.radio, .checkbox 
+{
+    display: block;
+    position: relative;
+    right: 55px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#comments
+{
+    height:100px;
+}
+
+.copyrights
+{
+    color: #d9d9d9;
+}
+
+a 
+{
+    color: #d9d9d9;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 450px)
+{
+    .labels 
+    {
+        width: 100%;
+        text-align: left;
+    }
+    .rightTab 
+    {
+        width: 100%;
+        float: left;
+    }
+    .input-field 
+    {
+        width: 100%;
+    }
+}
+ 
+@media screen and (max-width: 900px) 
+{
+    .input-field 
+    {
+        width: 70%;
+    }
+    select
+    {
+        width: 80%;
+    }
+}
+
