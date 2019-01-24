@@ -1,0 +1,186 @@
+body
+{
+    background-color: #EEEEEE;
+}
+
+/*Start header*/
+.header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+#logo
+{
+    float: left;
+    width: 350px;
+}
+
+#nav-bar a 
+{
+    display: inline-block;
+    margin: auto 1px;
+    border-radius: 10px;
+    background: #F1C40F;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    height: 20px;
+    font-size: 17px;
+}
+
+#nav-bar a:hover 
+{
+    background-color: #000;
+}
+/*End header*/
+
+/*Start get email*/
+.get-email
+{
+    text-align: center;
+    padding:0px 70px 70px;
+}
+
+#email
+{
+    height: 20px;
+    width: 300px;
+}
+
+#submit
+{
+    margin-top: 10px;
+    height: 37px;
+    width: 150px;
+    background-color: #F1C40F;
+    text-transform: uppercase;
+    border: 1px solid #F1C40F;
+    font-weight: bold;
+}
+/*End get email*/
+
+/*Start features*/
+.content
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.icon
+{
+    margin-right: 80px;
+    margin-left: 50px;
+    color: #FFA500;
+}
+/*End features*/
+
+/*Start how-works*/
+.how-works
+{
+    padding: 40px;
+    text-align: center;
+}
+/*End how-works*/
+
+/*Start pricing*/
+.pricing
+{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-right: 15%;
+	padding-left: 15%;   
+}
+
+.table
+{
+	border: 1px solid black;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	width: 30%;
+    text-align: center;
+}
+
+ol
+{
+    list-style-type: none;
+}
+
+.table .level
+{
+    background-color: #DDDDDD; 
+	margin-top: 0px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+
+.btn
+{
+	background-color: #F1C40F;
+    border:  none;
+	padding: 10px 25px;
+	font-size: 16px;
+	text-transform: uppercase;
+	display: inline;
+}
+ 
+button:hover 
+{
+	background-color: #FFA500;
+	font-size: 15px;
+	padding: 10px 25px;
+	font-size: 16px;
+	text-transform: uppercase;
+} 
+/*End pricing*/
+
+/*Start footer*/
+footer
+{
+    text-align: right;
+    background-color: #DDDDDD;
+    padding: 10px;
+    margin: 20px;
+}
+
+#footer
+{
+   text-align: right;
+}
+
+
+footer ul 
+{
+	text-decoration: none;
+    text-align: center;
+	float: right;
+	width: 100%;
+}
+
+footer li
+{
+	display: inline-flex;
+	margin-right: 15px;
+	font-size: 20px; 
+	text-decoration-color: black;
+}
+
+footer a 
+{
+	text-decoration: none;
+	color: black;
+}
+/*End footer*/
+ 
+.copyrights
+{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    height: 30px;
+}
+
